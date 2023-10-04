@@ -29,9 +29,6 @@ img{
     }
   }
 
-.inner{
-    padding-top: 50px;
-}
 .light-wrapper {
     background: #f9f9f9;
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -40,21 +37,60 @@ img{
     padding-top: 90px;
     padding-bottom: 90px;
 }
+
 .container {
     padding-right: 0;
     padding-left: 0;
 }
-.section-title.text-center {
-    text-align: center;
-    margin-left: auto;
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+.container {
     margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.section-title.text-center {
-    padding-bottom: 40px;
-    overflow: hidden;
+h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
 }
-.text-center {
-    text-align: center;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #434343;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+h1, .h1 {
+    font-size: 36px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 .thin3 {
     width: 70%;
@@ -64,7 +100,133 @@ img{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .row {
     margin-left: -15px;
     margin-right: -15px;
+}
+.circle-wrapper .circle {
+    width: 130%;
+    margin: -30px -15%;
+    background: none !important;
+}
+
+.blue-bg {
+    background: rgba(106,186,222,1);
+}
+.circle-wrapper .circle .text {
+    float: left;
+    width: 100%;
+    padding-top: 40%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.circle.blue-bg p, .circle.red-bg p, .circle.green-bg p, .circle.yellow-bg p {
+    padding: 20px 29px;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 20px;
+}
+p {
+    margin: 0 0 10px;
+}
+.circle-wrapper .circle.blue-bg:after {
+    background: rgba(106,186,222,.8);
+}
+
+.circle-wrapper .circle:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circle-wrapper .circle {
+    width: 130%;
+    margin: -30px -15%;
+    background: none !important;
+}
+
+.red-bg {
+    background: rgba(224,103,106,1);
+}
+.circle-wrapper .circle .text {
+    float: left;
+    width: 100%;
+    padding-top: 40%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.circle.blue-bg p, .circle.red-bg p, .circle.green-bg p, .circle.yellow-bg p {
+    padding: 20px 29px;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 20px;
+}
+p {
+    margin: 0 0 10px;
+}
+.circle-wrapper .circle.red-bg:after {
+    background: rgba(224,103,106,.8);
+}
+
+.circle-wrapper .circle:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circle-wrapper .circle {
+    width: 130%;
+    margin: -30px -15%;
+    background: none !important;
+}
+
+.green-bg {
+    background: rgba(69,190,132,1);
+}
+.circle-wrapper .circle .text {
+    float: left;
+    width: 100%;
+    padding-top: 40%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
