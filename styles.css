@@ -1,2 +1,70 @@
+/* styles.css */
+#main {
+    background-color: red !important;
+  }
+.img-container{
+    width:100%;
+    height: 100%;
+}
 
+img{
+    width: 100%;
+    height: 90vh;
+}
+#title {
+    background: linear-gradient(300deg, #ffffff, #ff0026, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
+.inner{
+    padding-top: 50px;
+}
+.light-wrapper {
+    background: #f9f9f9;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.inner {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.section-title.text-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title.text-center {
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.text-center {
+    text-align: center;
+}
+.thin3 {
+    width: 70%;
+    margin: 0 auto;
+}
+.circle-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
