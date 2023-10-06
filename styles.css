@@ -18,6 +18,8 @@
     padding-top: 20px;
     height: 600px;
     width: 500px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
 }
 
 img{
